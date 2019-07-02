@@ -1,22 +1,26 @@
 package loopsprograms;
 
+import java.util.Scanner;
+
 public class Divide {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		for (int i=1; i<=50; i++) {
-			if(i % 3 == 0 && i% 5==0) {
+		Scanner in =new Scanner(System.in);
+		System.out.println("Enter the number :");
+		int num = in.nextInt();
+		if(num % 3 == 0 && num% 5==0) {
 				System.out.println("fuzz-buzz");
 			}
-			else if(i % 3==0){
+			else if(num % 3==0){
 				System.out.println("fuzz");
-				
 			}
-			else if(i % 5==0){
+			
+			else if(num % 5==0){
 				System.out.println("buzz");
 			}
 		}
 
 	}
 
-}
+
