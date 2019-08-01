@@ -8,8 +8,8 @@ public class SwapVar {
 		int sec =20;
 		int swap = first +sec;//10+20
 		first = swap; //30
-		sec = first -sec;//30-20=10(b)
-		first=first-sec;//30-10;
+		sec = first -sec;//30-20=10(sec)
+		first=first-sec;//30-10=20(first)
 		System.out.println(" Now first : " + first);
 		System.out.println("Now sec : " + sec);
 		

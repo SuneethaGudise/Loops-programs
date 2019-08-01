@@ -31,19 +31,21 @@ public class ArmstronOrnot {
 		Scanner scan = new Scanner(System.in);
 				System.out.println("ENTER THE NUMBER");
 		int x =scan.nextInt();
-			for(int i=1;i<=1000;i++) {
+			/*for(int i=1;i<=1000;i++) {
+				*/
+			
+			boolean res = isArmstrong(x);
+			if(res == true){
+				System.out.println(" Armstrong Number  " + x);
+			}
+			else
+				System.out.println("not Armstrong");
+			
 				
 			
-			boolean res = isArmstrong(i);
-			if(res == true){
-				System.out.println(" Armstrong Number  " + i);
-			}
-			//else
-				//System.out.println("Not Armstrong");
-			}
 			
 		}
 
-	
+	}
 
-}
+
